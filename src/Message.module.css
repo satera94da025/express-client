@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0
+}
+.wrap {
+    display: inline-block;
+    margin: 5px;
+
+
+
+
+
+}
+.messageBlock {
+    display: flex;
+    width: 400px;
+    border-radius: 12px;
+    padding: 30px;
+    background: #1c1919;
+    position: relative;
+
+
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    align-self: flex-end;
+    margin-right: 20px
+}
+
+.message {
+    width: 200px;
+    border-radius: 15px;
+    background-color: #383636;
+    padding: 20px;
+    position: relative;
+}
+
+.message::before {
+    content: '';
+    border: 20px solid transparent;
+    border-bottom: 20px solid #383636;
+    position: absolute;
+    bottom: 0;
+    left: -16px;
+}
+
+.messageTime {
+    color: #1AA0D2;
+    position: absolute;
+    right: 10px;
+    bottom: 3px;
+}
+
+.messageName {
+    color: deeppink;
+    margin: 3px;
+}
+
+.messageMessage {
+    color: goldenrod;
+
+}
